@@ -5,16 +5,43 @@
 }
 
 #header {
-  height: 40px;
+  height: 21px;
   width: 80%;
-  background: gray;
+  background: rgb(92, 88, 88);
   margin-left: 10% ;
   float: center;
-  padding-top: center;
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: rgba(0,0,0,0.3) 0 2px 4px;
+  background-color: gray;
+  border-bottom: 19px solid rgba(92, 92, 92, 0.68);
 }
+
+#home:hover{
+ 
+  background-color: rgb(56, 54, 54);
+border-radius: inherit;
+text-color: red;
+
+}
+#project:hover{
+  background-color: rgb(56, 54, 54);
+}
+
+#news:hover{
+  background-color: rgb(56, 54, 54);
+}
+
+#about:hover{
+  background-color: rgb(56, 54, 54);
+}
+
+#contact:hover{
+  background-color: rgb(56, 54, 54);
+  border-radius: inherit;
+
+}
+
 
 .separetor{
   color: rgb(255, 255, 255);
@@ -30,8 +57,34 @@
   padding-top: 8px;
 }
 
+.separetor:hover{
+  color: rgb(255, 82, 0);
+  background: fff;
+  height: 32px;
+  width: 20%;
+  border-radius: initial;
+  border-right: 2px solid rgb(44, 44, 51);
+  float: left;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+
 .separetor_last{
   color: rgb(71, 64, 64);
+  background: fff;
+  height: 32px;
+  width: 19%;
+  border-radius: initial;
+  float: right;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+.separetor_last:hover{
+  color: rgb(255, 82, 0);
   background: fff;
   height: 32px;
   width: 19%;
