@@ -16,16 +16,14 @@
   background-color: gray;
   border-bottom: 19px solid rgba(92, 92, 92, 0.68);
 }
-
 #home:hover{
- 
   background-color: rgb(56, 54, 54);
-border-radius: inherit;
-text-color: red;
-
+  border-radius: inherit; 
 }
+
 #project:hover{
   background-color: rgb(56, 54, 54);
+  text-decoration: none;
 }
 
 #news:hover{
@@ -39,7 +37,6 @@ text-color: red;
 #contact:hover{
   background-color: rgb(56, 54, 54);
   border-radius: inherit;
-
 }
 
 
