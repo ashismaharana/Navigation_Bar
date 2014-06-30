@@ -1,8 +1,5 @@
-electronicsgeek
-===============
+Navigation Bar
+====================
+
 
 work in progress . .. ...
-
----------
-
-poc for creating non-bootstrap UI.
